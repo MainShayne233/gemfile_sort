@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   # to allow pushing to a single host or delete this section to allow pushing to any host.
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
-  spec.bindir        = "exe"
+  # spec.bindir        = "exe"
   spec.executables   = `git ls-files`.split("\n").select{|f| f =~ /^bin/}
   spec.require_paths = ["lib"]
 

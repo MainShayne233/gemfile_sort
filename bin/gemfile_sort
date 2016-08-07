@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
 
-# require 'gemfile_sort'
-#
-# GemfileSort.alphabetize
+require 'gemfile_sort'
 
-puts 1
+GemfileSort.alphabetize
