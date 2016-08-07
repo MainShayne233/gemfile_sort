@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   # to allow pushing to a single host or delete this section to allow pushing to any host.
 
   spec.files         = `git ls-files`.split("\n")
-  spec.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
+  spec.executables   = ["gemfilesort"]
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.12"
